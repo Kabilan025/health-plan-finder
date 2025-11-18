@@ -1,5 +1,5 @@
-import { Shield, Heart, Users } from "lucide-react";
-import ChatInterface from "@/components/ChatInterface";
+import { Shield, Heart, Users, Sparkles } from "lucide-react";
+import ConversationalChat from "@/components/ConversationalChat";
 import heroImage from "@/assets/hero-insurance.jpg";
 
 const Index = () => {
@@ -22,12 +22,16 @@ const Index = () => {
             <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-primary/10 mb-6">
               <Shield className="w-10 h-10 text-primary" />
             </div>
+            <div className="inline-flex items-center gap-2 bg-secondary/10 text-secondary px-4 py-2 rounded-full mb-4">
+              <Sparkles className="w-5 h-5" />
+              <span className="text-sm font-semibold">Powered by AI & Live Search</span>
+            </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Find Your Perfect Health Insurance Plan
             </h1>
             <p className="text-lg text-muted-foreground mb-8">
-              Get personalized insurance recommendations based on your family size and income. 
-              Our AI assistant makes it simple to find affordable, comprehensive coverage.
+              Chat naturally with our AI assistant powered by Google Gemini. Get personalized 
+              recommendations enhanced with real-time web search for the latest insurance information.
             </p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -53,7 +57,7 @@ const Index = () => {
 
       {/* Chat Section */}
       <section className="container mx-auto px-4 py-12 pb-20">
-        <ChatInterface />
+        <ConversationalChat />
       </section>
 
       {/* Footer */}
