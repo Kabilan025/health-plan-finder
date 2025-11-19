@@ -18,7 +18,7 @@ const ConversationalChat = () => {
   const [messages, setMessages] = useState<Message[]>([
     { 
       role: "assistant", 
-      content: "Hello! 👋 I'm your AI-powered Health Insurance Assistant. I'm here to help you find the perfect insurance plan for your family.\n\nTo get started, could you tell me a bit about your situation? For example:\n- How many people are in your family?\n- What's your approximate household income?\n- Do you have any specific health coverage needs?" 
+      content: "Hello! 👋 I'm your AI-powered Health Insurance Assistant specializing in Indian health insurance and government schemes.\n\nI can help you find the perfect insurance plan for your family and inform you about government schemes you may be eligible for.\n\nTo get started, could you tell me:\n- How many people are in your family?\n- What's your approximate annual household income (in lakhs)?\n- Are you aware of government schemes like Ayushman Bharat?\n- Do you have any specific health coverage needs?" 
     }
   ]);
   const [input, setInput] = useState("");

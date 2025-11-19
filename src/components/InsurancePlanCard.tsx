@@ -37,7 +37,7 @@ const InsurancePlanCard = ({ plan, index }: InsurancePlanCardProps) => {
         <p className="text-sm text-muted-foreground mb-4">{plan.type}</p>
         <div className="mb-4">
           <span className="text-3xl font-bold text-primary">
-            ${plan.premium}
+            ₹{plan.premium.toLocaleString('en-IN')}
           </span>
           <span className="text-muted-foreground">/month</span>
         </div>
