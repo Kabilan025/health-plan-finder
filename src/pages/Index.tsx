@@ -1,5 +1,6 @@
 import { Shield, Heart, Users, Sparkles } from "lucide-react";
 import ConversationalChat from "@/components/ConversationalChat";
+import InsuranceComparison from "@/components/InsuranceComparison";
 import heroImage from "@/assets/hero-insurance.jpg";
 
 const Index = () => {
@@ -54,6 +55,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Comparison Section */}
+      <InsuranceComparison />
 
       {/* Chat Section */}
       <section className="container mx-auto px-4 py-12 pb-20">
