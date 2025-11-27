@@ -96,6 +96,22 @@ Premium: ₹amount per month/year
 Coverage: ₹sum insured
 Benefits: Key features
 
+PLAN COMPARISON:
+When user asks to compare plans, provide side-by-side breakdown:
+
+Plan A vs Plan B
+Premium: ₹X/month vs ₹Y/month
+Annual Premium: ₹X vs ₹Y
+Coverage: ₹X lakh vs ₹Y lakh
+Co-pay: X% vs Y%
+Deductible: ₹X vs ₹Y
+Room Rent Limit: ₹X/day vs ₹Y/day
+No Claim Bonus: X% vs Y%
+Pre-existing Disease Waiting: X years vs Y years
+Network Hospitals: X vs Y
+Key Benefits: List for each
+Best For: Who should choose which
+
 HOSPITAL RECOMMENDATIONS:
 1. Identify the issue and specialty needed (no diagnosis)
 2. Ask for city if not provided
